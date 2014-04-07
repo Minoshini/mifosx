@@ -1,7 +1,7 @@
 ﻿-- drop tables in base-schema
 SET foreign_key_checks = 0;
 
--- drop accounting subsystem
+-- drop accounting subsystemacc_accounting_ruleacc_gl_accountacc_gl_closureacc_gl_account
 DROP TABLE IF EXISTS `acc_gl_account`;
 DROP TABLE IF EXISTS `acc_gl_closure`;
 DROP TABLE IF EXISTS `acc_gl_journal_entry`;
